@@ -86,7 +86,9 @@ function draw() {
       step = 0;
     } else {
       //move onto next canvas
-      drawCircle();
+      // drawCircle();
+      drawMiniCanvas(allData[miniCanvasCounter]);
+
       iterationRound = 0;
       miniCanvasCounter++;
       step = 0;
